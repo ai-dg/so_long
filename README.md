@@ -9,8 +9,6 @@
 **so_long** is a **basic 2D game** built using the **MiniLibX** graphics library.  
 The objective is to **collect all items on the map and reach the exit**, while navigating obstacles.
 
-![output](https://github.com/user-attachments/assets/3ebba97c-388f-4b25-8056-6c97e52cc90a)
-
 <img src="https://github.com/user-attachments/assets/3ebba97c-388f-4b25-8056-6c97e52cc90a" width="500">
 
 This project provided hands-on experience with **window management, textures, event handling, and pathfinding algorithms**.
