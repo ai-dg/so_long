@@ -6,7 +6,7 @@
 /*   By: dagudelo <dagudelo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/14 11:56:05 by dagudelo          #+#    #+#             */
-/*   Updated: 2023/12/14 16:40:08 by dagudelo         ###   ########.fr       */
+/*   Updated: 2025/03/05 19:58:35 by dagudelo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,9 +81,6 @@ static void	zero_check_int(t_print flag, const char *nbr, int *len_str, int *c)
 
 static void	print_int(const char *nbr, int *len_str, t_print flag, int *c)
 {
-	int	x;
-
-	x = 0;
 	if (*c < 0)
 	{
 		*len_str += 1;

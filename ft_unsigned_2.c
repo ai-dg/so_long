@@ -6,7 +6,7 @@
 /*   By: dagudelo <dagudelo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/14 13:45:45 by dagudelo          #+#    #+#             */
-/*   Updated: 2023/12/14 15:49:07 by dagudelo         ###   ########.fr       */
+/*   Updated: 2025/03/05 19:58:50 by dagudelo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,9 +41,6 @@ static void	zero_check_int_1(t_print flag, int *len_str, const char *nbr,
 static void	zero_check_uint(t_print flag, const char *nbr, int *len_str,
 		unsigned int *c)
 {
-	int	space_padding;
-
-	space_padding = 0;
 	if (flag.point == 1 && flag.zero == 0)
 		print_width_point_int(flag, nbr, len_str, (int *)c);
 	else if (flag.zero == 1 && flag.point == 0)
@@ -58,9 +55,6 @@ static void	zero_check_uint(t_print flag, const char *nbr, int *len_str,
 static void	print_uint(const char *nbr, int *len_str, t_print flag,
 		unsigned int *c)
 {
-	int	x;
-
-	x = 0;
 	ft_space_plus(flag, len_str, (int *)c);
 	if (nbr[0] == '0')
 	{
