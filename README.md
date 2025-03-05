@@ -1,11 +1,11 @@
-# 🎮 so_long - A Simple 2D Game
+# so_long - A Simple 2D Game
 
 <img src="https://github.com/user-attachments/assets/64aaadef-8c66-4766-9790-32f8032226f8" width="500">
 
 ![Score](https://img.shields.io/badge/Score-100%25-brightgreen)  
 📌 **42 School - MiniLibX & Game Development Project**  
 
-## 📝 Description
+## ▌ Description
 **so_long** is a **basic 2D game** built using the **MiniLibX** graphics library.  
 The objective is to **collect all items on the map and reach the exit**, while navigating obstacles.
 
@@ -13,18 +13,18 @@ The objective is to **collect all items on the map and reach the exit**, while n
 
 This project provided hands-on experience with **window management, textures, event handling, and pathfinding algorithms**.
 
-## 🔥 Key Features
-✅ **Loads and validates a `.ber` map file**  
-✅ **Displays a game world using MiniLibX**  
-✅ **Implements keyboard controls (WASD / arrow keys)**  
-✅ **Counts and displays the number of moves**  
-✅ **Ensures a valid path exists before starting the game**  
-✅ **Handles window events (ESC key, closing button, etc.)**  
+## ▌ Key Features
+▸ **Loads and validates a `.ber` map file**  
+▸ **Displays a game world using MiniLibX**  
+▸ **Implements keyboard controls (WASD / arrow keys)**  
+▸ **Counts and displays the number of moves**  
+▸ **Ensures a valid path exists before starting the game**  
+▸ **Handles window events (ESC key, closing button, etc.)**  
 
-## 🏆 Result: **100% Score**
+## ▌ Result: **100% Score**
 The project was successfully validated with a **100% score**, meeting all evaluation criteria. 🎉
 
-## 📁 Files
+## ▌ Files
 - `so_long.h` → Contains function prototypes and required macros  
 - `so_long.c` → Main game loop and event handling  
 - `map_parser.c` → Parses and validates the `.ber` map file  
@@ -32,14 +32,14 @@ The project was successfully validated with a **100% score**, meeting all evalua
 - `movement.c` → Handles player movement logic  
 - `Makefile` → Automates compilation (`all`, `clean`, `fclean`, `re`, `bonus`)  
 
-## 🏗️ **Game Mechanics**
+## ▌ **Game Mechanics**
 1. The player starts at a designated position (`P`) on the map.
 2. The goal is to collect all items (`C`).
 3. Once all items are collected, the player can reach the exit (`E`).
 4. The number of moves is displayed in the **terminal**.
 5. The game ensures that a **valid path exists** between `P`, all `C`, and `E`.
 
-### 🔹 **Map Format (`.ber` files)**
+### ▌ **Map Format (`.ber` files)**
 A valid `.ber` map must:
 - Be **rectangular**.
 - Be **surrounded by walls (`1`)**.
@@ -61,13 +61,13 @@ A valid `.ber` map must:
 11111111111111111111111
 ```
 
-## 🖥️ **Graphical & Input Handling**
+## ▌ **Graphical & Input Handling**
 - The game **opens a window** and displays the map.
 - The **W, A, S, D** (or arrow keys) are used for movement.
 - **ESC key or closing the window** properly exits the game.
 - The **number of moves is displayed in the terminal**.
 
-## ⚙️ **Dependencies**
+## ▌ **Dependencies**
 Before compiling the game, install the required dependencies:
 
 ### **On Debian/Ubuntu**
@@ -83,25 +83,25 @@ sudo dnf install libbsd-devel
 
 **MiniLibX** (https://github.com/42Paris/minilibx-linux) is included in the folder /minilibx-linux and inside of the Makefile.
 
-## 🎯 **Bonus Features**
+## ▌ **Bonus Features**
 | Feature | Description |
 |---------|-------------|
-| ✅ **Animated Sprites** | Adds movement animations for smoother gameplay |
-| ✅ **Enemy Patrols** | Introduces an enemy that moves around the map |
-| ✅ **On-Screen Move Counter** | Displays the number of moves directly on the game screen |
+| ▸ **Animated Sprites** | Adds movement animations for smoother gameplay |
+| ▸ **Enemy Patrols** | Introduces an enemy that moves around the map |
+| ▸ **On-Screen Move Counter** | Displays the number of moves directly on the game screen |
 
-## 🚀 Compilation & Usage
-### 🛠 **Compile the Program**
+## ▌ Compilation & Usage
+### ▌ **Compile the Program**
 ```sh
 make
 ``` 
 
-### ▶️ **Run so_long**
+### ▌ **Run so_long**
 ```sh
 ./so_long maps/map1.ber  
 ```
 
-### ▶️ **Run with a Custom Map**
+### ▌ **Run with a Custom Map**
 ```sh
 ./so_long maps/map2.ber  
 ```
