@@ -91,17 +91,17 @@ sudo dnf install libbsd-devel
 | ▸ **On-Screen Move Counter** | Displays the number of moves directly on the game screen |
 
 ## ▌ Compilation & Usage
-### ▌ **Compile the Program**
+### ■ **Compile the Program**
 ```sh
 make
 ``` 
 
-### ▌ **Run so_long**
+### ■ **Run so_long**
 ```sh
 ./so_long maps/map1.ber  
 ```
 
-### ▌ **Run with a Custom Map**
+### ■ **Run with a Custom Map**
 ```sh
 ./so_long maps/map2.ber  
 ```
