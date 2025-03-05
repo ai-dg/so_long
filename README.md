@@ -81,7 +81,7 @@ sudo apt install libbsd-dev
 sudo dnf install libbsd-devel  
 ```
 
-**MiniLibX** is included in the folder /minilibx-linux and inside of the Makefile.
+**MiniLibX** (https://github.com/42Paris/minilibx-linux) is included in the folder /minilibx-linux and inside of the Makefile.
 
 ## 🎯 **Bonus Features**
 | Feature | Description |
