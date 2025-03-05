@@ -39,7 +39,7 @@ The project was successfully validated with a **100% score**, meeting all evalua
 4. The number of moves is displayed in the **terminal**.
 5. The game ensures that a **valid path exists** between `P`, all `C`, and `E`.
 
-### ▌ **Map Format (`.ber` files)**
+### ■ **Map Format (`.ber` files)**
 A valid `.ber` map must:
 - Be **rectangular**.
 - Be **surrounded by walls (`1`)**.
