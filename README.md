@@ -52,10 +52,11 @@ A valid `.ber` map must:
   - `P` → Player start position
 
 **Example valid map:**
+```txt
 11111111111111111111111
 1111111 1P0C0E1 1111111
 11111111111111111111111
-
+```
 
 ## 🖥️ **Graphical & Input Handling**
 - The game **opens a window** and displays the map.
