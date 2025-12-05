@@ -1,7 +1,5 @@
 # so_long - A Simple 2D Game
 
-<img src="https://github.com/user-attachments/assets/64aaadef-8c66-4766-9790-32f8032226f8" width="500">
-
 ![Score](https://img.shields.io/badge/Score-100%25-brightgreen)  
 📌 **42 School - MiniLibX & Game Development Project**  
 
